@@ -123,7 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lean01-1.cpp" />
+    <ClCompile Include="lean01-1输出.cpp" />
+    <ClCompile Include="lean01-2注释.cpp" />
+    <ClCompile Include="lean01-3变量与常量.cpp" />
+    <ClCompile Include="lean01-4关键字与标识符.cpp" />
+    <ClCompile Include="lean01-5数据类型.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
