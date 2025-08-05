@@ -30,5 +30,20 @@
     <ClCompile Include="lean01-5数据类型.cpp">
       <Filter>我超，源</Filter>
     </ClCompile>
+    <ClCompile Include="lean01-6字符串型.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-7布尔类型.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean1-08输入.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-9算术运算符与赋值运算符.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-10比较运算符和逻辑运算符.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

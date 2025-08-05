@@ -123,11 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lean01-10比较运算符和逻辑运算符.cpp" />
     <ClCompile Include="lean01-1输出.cpp" />
     <ClCompile Include="lean01-2注释.cpp" />
     <ClCompile Include="lean01-3变量与常量.cpp" />
     <ClCompile Include="lean01-4关键字与标识符.cpp" />
     <ClCompile Include="lean01-5数据类型.cpp" />
+    <ClCompile Include="lean01-6字符串型.cpp" />
+    <ClCompile Include="lean01-7布尔类型.cpp" />
+    <ClCompile Include="lean01-9算术运算符与赋值运算符.cpp" />
+    <ClCompile Include="lean1-08输入.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
