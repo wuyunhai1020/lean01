@@ -124,6 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lean01-10比较运算符和逻辑运算符.cpp" />
+    <ClCompile Include="lean01-11选择结构之if单多行.cpp" />
+    <ClCompile Include="lean01-12if的多条件与嵌套.cpp" />
     <ClCompile Include="lean01-1输出.cpp" />
     <ClCompile Include="lean01-2注释.cpp" />
     <ClCompile Include="lean01-3变量与常量.cpp" />

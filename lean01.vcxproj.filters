@@ -45,5 +45,11 @@
     <ClCompile Include="lean01-10比较运算符和逻辑运算符.cpp">
       <Filter>我超，源</Filter>
     </ClCompile>
+    <ClCompile Include="lean01-11选择结构之if单多行.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-12if的多条件与嵌套.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

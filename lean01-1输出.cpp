@@ -2,6 +2,7 @@
 using namespace std;//使用标准命名空间，这样就可以直接使用cout和cin等，而不需要std::cout和std::cin，省事
 
 int main1() {//主函数，程序从这里开始执行
+	cout << "现在正在运行的lean01-1" << endl;
 	//不用跑的时候，把main函数改成main1，避免和其他文件冲突。当然，main2也是可以的
 	cout << "刘孙没鸡鸡" << endl;
 	cout << "郭子是刘孙的爸爸\n"  ;//输出语句，endl表示换行，相当于\n，但是\n要放在字符串里，而endl可以直接写在cout后面，表示输出完后换行。

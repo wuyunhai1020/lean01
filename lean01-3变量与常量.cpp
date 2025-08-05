@@ -2,6 +2,7 @@
 using namespace std;
 
 int main3() {
+	cout << "现在正在运行的lean01-3" << endl;
 	//变量存在的意义：便于管理内存空间；
 	//变量创建的语法：数据类型 变量名 = 初始值；
 	int xianbei = 114514;//这是个整数变量，初始值为114514

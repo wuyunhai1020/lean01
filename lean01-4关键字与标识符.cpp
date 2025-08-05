@@ -2,6 +2,7 @@
 using namespace std;
 
 int main4() {
+	cout << "现在正在运行的lean01-4" << endl;
 	//有些字符串不可作为变量和常量名（即标识符），比如关键字，比如int、return、if、else等
 	/*不合法的变量名示例：
       int 3age;      // 不能以数字开头
