@@ -51,5 +51,38 @@
     <ClCompile Include="lean01-12if的多条件与嵌套.cpp">
       <Filter>我超，源</Filter>
     </ClCompile>
+    <ClCompile Include="lean01-13选择结构之三目运算符.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-14三目运算符的实验.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-15选择结构之switch.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-16恭喜隔壁有情人！.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-17循环结构之while.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-18循环结构之do while.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-19循环结构之for循环.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-20嵌套结构.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-21跳转语句之break.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-22跳转语句之continue.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-23跳转语句之goto.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
