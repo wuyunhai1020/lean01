@@ -84,5 +84,20 @@
     <ClCompile Include="lean01-23跳转语句之goto.cpp">
       <Filter>我超，源</Filter>
     </ClCompile>
+    <ClCompile Include="lean01-24数组之一维数组的定义.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-25数组之一维数组案例.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-26数组之二维数组的定义.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-27二维数组数组名.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
+    <ClCompile Include="lean01-28函数之函数的定义.cpp">
+      <Filter>我超，源</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

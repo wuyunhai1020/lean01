@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{79ae8409-b1bb-49b4-97d8-d88ef6c4f0df}</ProjectGuid>
-    <RootNamespace>lean01</RootNamespace>
+    <ProjectGuid>{4d6c858b-1959-43e8-b2f2-d640680fe7f9}</ProjectGuid>
+    <RootNamespace>lean03指针</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,34 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lean01-10比较运算符和逻辑运算符.cpp" />
-    <ClCompile Include="lean01-11选择结构之if单多行.cpp" />
-    <ClCompile Include="lean01-12if的多条件与嵌套.cpp" />
-    <ClCompile Include="lean01-13选择结构之三目运算符.cpp" />
-    <ClCompile Include="lean01-14三目运算符的实验.cpp" />
-    <ClCompile Include="lean01-15选择结构之switch.cpp" />
-    <ClCompile Include="lean01-16恭喜隔壁有情人！.cpp" />
-    <ClCompile Include="lean01-17循环结构之while.cpp" />
-    <ClCompile Include="lean01-18循环结构之do while.cpp" />
-    <ClCompile Include="lean01-19循环结构之for循环.cpp" />
-    <ClCompile Include="lean01-1输出.cpp" />
-    <ClCompile Include="lean01-20嵌套结构.cpp" />
-    <ClCompile Include="lean01-21跳转语句之break.cpp" />
-    <ClCompile Include="lean01-22跳转语句之continue.cpp" />
-    <ClCompile Include="lean01-23跳转语句之goto.cpp" />
-    <ClCompile Include="lean01-24数组之一维数组的定义.cpp" />
-    <ClCompile Include="lean01-25数组之一维数组案例.cpp" />
-    <ClCompile Include="lean01-26数组之二维数组的定义.cpp" />
-    <ClCompile Include="lean01-27二维数组数组名.cpp" />
-    <ClCompile Include="lean01-28函数之函数的定义.cpp" />
-    <ClCompile Include="lean01-2注释.cpp" />
-    <ClCompile Include="lean01-3变量与常量.cpp" />
-    <ClCompile Include="lean01-4关键字与标识符.cpp" />
-    <ClCompile Include="lean01-5数据类型.cpp" />
-    <ClCompile Include="lean01-6字符串型.cpp" />
-    <ClCompile Include="lean01-7布尔类型.cpp" />
-    <ClCompile Include="lean01-9算术运算符与赋值运算符.cpp" />
-    <ClCompile Include="lean1-08输入.cpp" />
+    <ClCompile Include="lean03-01指针的定义和使用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

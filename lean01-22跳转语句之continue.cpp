@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+int main22()
 {
 	cout << "现在正在运行的是lean01-22" << endl;
 	cout << endl;

@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+int main23()
 {
 	cout << "现在正在运行的是lean01-23" << endl;
 	cout << endl;
@@ -9,6 +9,9 @@ int main()
 	//大致是这样的：首先，创建标志：goto flag（当然其他的名称也可以），然后插入标志，这样代码执行到goto的时候，就会跳转到标志处继续执行。
 	//需要注意的是，标志完全可以在goto前面，不过这样很容易造成死循环就是了。
 	//goto尽量别乱用，容易崩
+
+	//250808补充：这个没写好，不理他了，就这样吧。
+
 
 	//示例：这里稍微优化了一下“逢7过”的代码
 	cout << "下面将进行“逢7过”游戏" << endl;
@@ -26,7 +29,7 @@ int main()
 
 
 		}
-		flag;
+		flag://记得打冒号
 		cout << "冻结吧！" << endl;
 	}
 
