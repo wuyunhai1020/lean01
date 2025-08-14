@@ -9,7 +9,25 @@ int main6() {
     char a0[] = "0";
     char str1[] = "lean";
     char a1  [] = "back";//这中括号离远一点也无所谓
-        cout << str1 <<"\n" << a1 << endl;//这样以后就不用每次都打lean了，打str1就行了。中括号是格式，这就是经典的以少代多了
+    cout << str1 <<"\n" << a1 << endl;//这样以后就不用每次都打lean了，打str1就行了。中括号是格式，这就是经典的以少代多了
+
+    //其实这里的字符串本质上是字符型数组
+    char ar1[6] = "ab d";
+    cout << "ar1的第一个元素为" << ar1[0] << endl;
+    cout << "ar1的第二个元素为" << ar1[1] << endl;
+    cout << "ar1的第三个元素为" << ar1[2] << endl;
+    int ar1_2 = ar1[2];
+    cout << "ar1第三个元素，也就是空格，的ASCII码值为"<<ar1_2<<endl;
+    cout << "ar1的第四个元素为" << ar1[3] << endl;
+    cout << "ar1的第五个元素为" << ar1[4] << endl;
+    int ar1_4 = ar1[4];
+    cout << "ar1第五个元素，也就是空，的ASCII码值为" << ar1_4 << endl;
+    int ar1_5 = ar1[5];
+    cout << "ar1第五个元素，也就是空后的空，的ASCII码值为" << ar1_5 << endl;
+    char t0 = 0;
+    cout << "字符型变量t0的ASCII码值为0，看看会输出什么吧：" << t0<<endl;
+
+
 //宽字符设置
         locale::global(locale(""));//设置本地化以支持宽字符输出
         //根据ds说法，设置locale后，会使用系统的默认本地化环境。比如在中文Windows上，locale("")会使用GBK编码
@@ -23,8 +41,8 @@ int main6() {
 
 
 
-    string str2 = "零";
-    string a2   = "败";
+    string str2 = "零败";
+    string a2   = "leanback";
     cout << str2 << "\n" << a2 << endl;
 
 

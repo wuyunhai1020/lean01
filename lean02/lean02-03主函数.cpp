@@ -6,7 +6,7 @@ int main()
 {
 	cout << "现在正在运行的是lean02-03\n" << endl;
 
-	cout << "请输入一个整数，我将求取它的算术平方根" << endl;
+	cout << "请输入一个正数，我将求取它的算术平方根" << endl;
 	cout << "输入负数可以终止程序\n" << endl;
 
 	int j = 1;
